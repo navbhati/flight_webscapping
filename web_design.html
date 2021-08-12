@@ -1,0 +1,107 @@
+<title>the error fare </title>
+<h1>Welcome to the error fare website </h1>
+<html>
+<head>
+<style>
+    body  
+    {
+      background-image: url("plane.gif"), url("plane_model.gif") ;
+      background-color: #521010;
+    }
+</style>
+
+
+
+
+<form method="post" action=" ">
+<p>
+    Email <input type="text" name="" value ="" id = "txtEmail">
+
+</p>
+
+<p>
+
+Ticket <select name="" id = "txtTicket">
+    <option value="1">One way</option>
+    <option selected value="">Return</option>
+  </select>
+</p>
+To <input type="text" name="" value ="" id = "txtTo" placeholder="Enter destination">
+From <input type="text" name="" value ="" id = "txtFrom" placeholder="Enter departing airport">
+
+Depart <input type="date" name="date_picker" id = "txtDepart" value="03-08-2021" required>
+
+Return <input type="date" name="date_picker" id = "txtReturn" value="03-08-2021" required>
+
+Class <select name="Class" id="txtClass" >
+    <option value="1">First class</option>
+    <option value="2">Business class</option>
+    <option selected value="">Economy</option>
+  </select>
+  
+People <select name="people" id="txtPeople">
+    <option value="1">Children</option>
+    <option value="2">Pensioner</option>
+    <option selected value="">Adult</option>
+  </select>
+  
+<p>Direct <input type="checkbox" name="" value="" id="txtDirect"></p>
+
+<p>
+<input type="submit" name="Submit" value="Submit" id = "txtSubmit" onClick="savingData()">
+
+</p>
+
+
+</form>
+</head>
+
+<script>
+
+  let savingData = () => {
+
+    const Email = document.getElementById('txtEmail');
+    const Ticket = document.getElementById('txtTicket');
+    const To = document.getElementById('txtTo');
+    const From = document.getElementById('txtFrom');
+    const Depart = document.getElementById('txtDepart');
+    const Return = document.getElementById('txtReturn');
+    const Class = document.getElementById('txtClass');
+    const People = document.getElementById('txtPeople');
+    const Direct = document.getElementById('txtDirect');
+    
+    let data = 
+    'Email:' + Email.value + '\r\n' +
+    'Ticket:' + Ticket.value + '\r\n' +
+    'To:' + To.value + '\r\n' +
+    'From:' + From.value + '\r\n' +
+    'Depart:' + Depart.value + '\r\n' +
+    'Return:' + Return.value + '\r\n' +
+    'Class:' + Class.value + '\r\n' +
+    'People:' + People.value + '\r\n' +
+    'Direct:' + Direct.value;
+
+    const textToBlob = new Blob([data], { type: 'text/plain' });
+    const sFileName = 'flightData.txt';
+
+    let newLink = document.createElement("a");
+    newLink.download = sFileName;
+
+    if (window.webkitURL != null) {
+      newLink.href = window.webkitURL.createObjectURL(textToBlob)
+
+    }
+    else{
+      newLink.href = window.webkitURL.createObjectURL(textToBlob)
+      newLink.style.display = "none"
+      document.body.appendChild(newLink);
+    }
+    newLink.click();
+  }
+
+</script>
+
+
+
+
+</html>
