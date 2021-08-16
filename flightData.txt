@@ -1,9 +1,10 @@
-Email:milanosolanki27@gmail.com
-Ticket:1
+milanosolanki27@gmail.com
+One way
 DEL
 LHR
-2021-08-23
-2021-08-31
-Class:1
-People:
-Direct:
+2021-08-26
+2021-09-05
+Economy
+Adult
+450
+Direct

@@ -6,7 +6,7 @@
     body  
     {
       background-image: url("plane.gif"), url("plane_model.gif") ;
-      background-color: #521010;
+      background-color: #501594;
     }
 </style>
 
@@ -22,8 +22,8 @@
 <p>
 
 Ticket <select name="" id = "txtTicket">
-    <option value="1">One way</option>
-    <option selected value="">Return</option>
+    <option value="One way">One way</option>
+    <option selected value="Return">Return</option>
   </select>
 </p>
 To <input type="text" name="" value ="" id = "txtTo" placeholder="Enter destination">
@@ -34,18 +34,21 @@ Depart <input type="date" name="date_picker" id = "txtDepart" value="03-08-2021"
 Return <input type="date" name="date_picker" id = "txtReturn" value="03-08-2021" required>
 
 Class <select name="Class" id="txtClass" >
-    <option value="1">First class</option>
-    <option value="2">Business class</option>
-    <option selected value="">Economy</option>
+    <option value="First class">First class</option>
+    <option value="Business class">Business class</option>
+    <option selected value="Economy">Economy</option>
   </select>
   
 People <select name="people" id="txtPeople">
-    <option value="1">Children</option>
-    <option value="2">Pensioner</option>
-    <option selected value="">Adult</option>
+    <option value="Children">Children</option>
+    <option selected value="Adult">Adult</option>
   </select>
+
+Budget <input type="number" name="" value ="" id = "txtBudget" placeholder="Enter your budget"> 
+
   
-<p>Direct <input type="checkbox" name="" value="" id="txtDirect"></p>
+<p>Direct <input type="checkbox" name="Direct" value="" id="txtDirect">
+</p>
 
 <p>
 <input type="submit" name="Submit" value="Submit" id = "txtSubmit" onClick="savingData()">
@@ -68,18 +71,20 @@ People <select name="people" id="txtPeople">
     const Return = document.getElementById('txtReturn');
     const Class = document.getElementById('txtClass');
     const People = document.getElementById('txtPeople');
+    const Budget = document.getElementById('txtBudget')
     const Direct = document.getElementById('txtDirect');
     
     let data = 
-    'Email:' + Email.value + '\r\n' +
-    'Ticket:' + Ticket.value + '\r\n' +
-    'To:' + To.value + '\r\n' +
-    'From:' + From.value + '\r\n' +
-    'Depart:' + Depart.value + '\r\n' +
-    'Return:' + Return.value + '\r\n' +
-    'Class:' + Class.value + '\r\n' +
-    'People:' + People.value + '\r\n' +
-    'Direct:' + Direct.value;
+    Email.value + '\r\n' +
+    Ticket.value + '\r\n' +
+    To.value + '\r\n' +
+    From.value + '\r\n' +
+    Depart.value + '\r\n' +
+    Return.value + '\r\n' +
+    Class.value + '\r\n' +
+    People.value + '\r\n' +
+    Budget.value + '\r\n' +
+    Direct.value;
 
     const textToBlob = new Blob([data], { type: 'text/plain' });
     const sFileName = 'flightData.txt';
