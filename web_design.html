@@ -86,8 +86,8 @@ Budget <input type="number" name="" value ="" id = "txtBudget" placeholder="Ente
     Budget.value + '\r\n' +
     Direct.value;
 
-    const textToBlob = new Blob([data], { type: 'text/plain' });
-    const sFileName = 'flightData.txt';
+    const textToBlob = new Blob([data], { type: 'json' });
+    const sFileName = 'flightData.json';
 
     let newLink = document.createElement("a");
     newLink.download = sFileName;
