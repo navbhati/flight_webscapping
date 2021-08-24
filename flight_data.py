@@ -26,6 +26,7 @@ def readFile(fileName):
         if int(user_input[8]) >= int(the_info['Quotes'][i]["MinPrice"]):
             print(int(the_info['Quotes'][i]['MinPrice']))            
         i+=1
+        
 readFile('flightData.json')
 
 
