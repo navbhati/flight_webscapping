@@ -24,10 +24,9 @@ const outputHtml = matches => {
   if (matches.length > 0){
     const html = matches.map (
     match => `
-    <div class="card card-body mb-1">
-      <h4>${match.iata} (${match.name})</h4>
-    </div>  
-
+      <option>${match.iata} (${match.name})</option>
+      <option>${match.iata} (${match.name})</option>
+      <option>${match.iata} (${match.name})</option>
     `
     )
     .join('');
@@ -38,3 +37,7 @@ const outputHtml = matches => {
 search.addEventListener('input', () => searchAirports(search.value));
 
 //|| state.name.match(regex);
+
+//<div class="card card-body mb-1">
+
+//</div>  
