@@ -1,9 +1,10 @@
-milanosolanki27@gmail.com
-Return
-DEL
-LHR
-2021-08-31
-2021-09-08
-Business class
-Adult
-450
+{
+    "email": "milanosolanki27@gmail.com",
+    "trip": "onewaytrip",
+    "source": "DEL",
+    "destination": "LHR",
+    "departureDate": "2022-01-07",
+    "retrunDate": "2022-02-22",
+    "seatType": "Economy",
+    "budget": 200
+}

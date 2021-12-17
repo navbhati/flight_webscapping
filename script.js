@@ -24,9 +24,15 @@ const outputHtml = matches => {
   if (matches.length > 0){
     const html = matches.map (
     match => `
-      <option>${match.iata} (${match.name})</option>
-      <option>${match.iata} (${match.name})</option>
-      <option>${match.iata} (${match.name})</option>
+    <form autocomplete="off" >
+      <div class="autocomplete" style="width:300px;">
+        <option>${match.iata} (${match.name})</option>
+      </div>
+    </form>
+    
+      
+      
+
     `
     )
     .join('');

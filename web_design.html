@@ -27,41 +27,13 @@ Ticket <select name="" id = "txtTicket">
   </select>
 </p>
 
-To <input type="text" id="search" class="form-control" placeholder = "Enter destination" autocomplete="off" >
-<style>
+To <input type="text" id="search" class="form-control" placeholder = "Enter destination" autocomplete="off"
+selectBoxOptions= match >
 
-.autocomplete-items {
-  position: absolute;
-  border: 1px solid #d4d4d4;
-  border-bottom: none;
-  border-top: none;
-  z-index: 99;
-  /*position the autocomplete items to be the same width as the container:*/
-  top: 100%;
-  left: 0;
-  right: 0;
-}
 
-.autocomplete-items div {
-  padding: 10px;
-  cursor: pointer;
-  background-color: #fff; 
-  border-bottom: 1px solid #d4d4d4; 
-}
-
-/*when hovering an item:*/
-.autocomplete-items div:hover {
-  background-color: #e9e9e9; 
-}
-
-/*when navigating through the items using the arrow keys:*/
-.autocomplete-active {
-  background-color: DodgerBlue !important; 
-  color: #ffffff; 
-}
-</style>
-</style>
 <div id="match-list"></div>
+
+
 <script src="script.js"></script>
 
 

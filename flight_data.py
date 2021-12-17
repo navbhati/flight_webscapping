@@ -1,24 +1,43 @@
 import requests
 import  json
-
+import smtplib, ssl
 def readFile(fileName):
-    fileObj = open(fileName, "r") #opens the file in read mode
-    user_input = fileObj.read().splitlines() #puts the file into an array
-    fileObj.close()
+    
+    with open(fileName) as f:
+        d = json.load(f)
+        print(d)
+    
+   
+    trip =  d['trip']
+    source = d['source']
+    destination = d['destination']
+    departureDate = d['departureDate']
+    seatType = d['seatType']
+    
 
-    url = f"https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/browsequotes/v1.0/UK/GBP/en-US/{user_input[3]}/{user_input[2]}/{user_input[4]}"
-    #print (url)
-    querystring = {"inboundpartialdate":user_input[5]}
+    
+    # fileObj = open(fileName, "r") #opens the file in read mode
+    # user_input = fileObj.read().splitlines() #puts the file into an array
+    # fileObj.close()
 
-    headers = {
-        'x-rapidapi-key': "c5793d7cafmshf6f023ddc0f0f5ep11116cjsndb8f319ec001",
-        'x-rapidapi-host': "skyscanner-skyscanner-flight-search-v1.p.rapidapi.com"
-        }
+    url = f"https://api.flightapi.io/{trip}/61b49a3b13b15b74ee7b99e5/{source}/{destination}/{departureDate}/2/0/1/{seatType}/GBP"
 
-    response = requests.request("GET", url, headers=headers, params=querystring)
+
+    print(url)
+    print('https://api.flightapi.io/onewaytrip/61b49a3b13b15b74ee7b99e5/LHR/LAX/2022-10-11/2/0/1/Economy/USD')
+    response = requests.get(url)
+    print(response.content)
     the_info = response.json()
-    #print(the_info['Quotes'])
+    
+    #print("the_info ********")
+    #print(the_info)
+    #print(the_info['legs'])
     #print(the_info['Quotes'][0]["MinPrice"])
+    '''
+    
+    
+    
+    
     
     i=0
     #print(int(user_input[8]))
@@ -26,7 +45,7 @@ def readFile(fileName):
         if int(user_input[8]) >= int(the_info['Quotes'][i]["MinPrice"]):
             print(int(the_info['Quotes'][i]['MinPrice']))            
         i+=1
-        
+    '''    
 readFile('flightData.json')
 
 
