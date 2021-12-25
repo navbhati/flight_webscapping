@@ -1,0 +1,1164 @@
+{
+    "legs": [
+        {
+            "id": "DEL-LHR:KU384~30:KU103~31:0",
+            "departureTime": "06:15",
+            "arrivalTime": "09:00",
+            "duration": "32h 15m",
+            "departureAirportCode": "DEL",
+            "arrivalAirportCode": "LHR",
+            "airlineCodes": [
+                "KU"
+            ],
+            "stopoverAirportCodes": [
+                "KWI"
+            ],
+            "allianceCodes": [
+                ""
+            ],
+            "stopoversCount": 1,
+            "departureTimeMinutes": 375,
+            "arrivalTimeMinutes": 540,
+            "departureDateTime": "2021-12-30T06:15:00.000+05:30",
+            "arrivalDateTime": "2021-12-31T09:00:00.000Z",
+            "stopoverDurationMinutes": 1245,
+            "durationMinutes": 1935,
+            "overnight": true,
+            "stopoverDuration": "20h 45m",
+            "durationDays": 1,
+            "longStopover": true,
+            "segments": [
+                {
+                    "durationMinutes": 290,
+                    "stopoverDurationMinutes": 1245,
+                    "departureAirportCode": "DEL",
+                    "arrivalAirportCode": "KWI",
+                    "airlineCode": "KU",
+                    "cabin": "economy",
+                    "designatorCode": "KU384",
+                    "departureDateTime": "2021-12-30T06:15:00.000+05:30",
+                    "arrivalDateTime": "2021-12-30T08:35:00.000+03:00"
+                },
+                {
+                    "durationMinutes": 400,
+                    "stopoverDurationMinutes": 0,
+                    "departureAirportCode": "KWI",
+                    "arrivalAirportCode": "LHR",
+                    "airlineCode": "KU",
+                    "cabin": "economy",
+                    "designatorCode": "KU103",
+                    "departureDateTime": "2021-12-31T05:20:00.000+03:00",
+                    "arrivalDateTime": "2021-12-31T09:00:00.000Z"
+                }
+            ],
+            "operatingAirlineCodes": [],
+            "stopoverCode": "ONE_STOP",
+            "shortStopover": false,
+            "earlyDeparture": false,
+            "lateArrival": false,
+            "newAircraft": false,
+            "oldAircraft": true,
+            "highlyRatedCarrier": false,
+            "score": 499.5
+        },
+        {
+            "id": "DEL-LHR:KU384~30:KU101~30:0",
+            "departureTime": "06:15",
+            "arrivalTime": "13:00",
+            "duration": "12h 15m",
+            "departureAirportCode": "DEL",
+            "arrivalAirportCode": "LHR",
+            "airlineCodes": [
+                "KU"
+            ],
+            "stopoverAirportCodes": [
+                "KWI"
+            ],
+            "allianceCodes": [
+                ""
+            ],
+            "stopoversCount": 1,
+            "departureTimeMinutes": 375,
+            "arrivalTimeMinutes": 780,
+            "departureDateTime": "2021-12-30T06:15:00.000+05:30",
+            "arrivalDateTime": "2021-12-30T13:00:00.000Z",
+            "stopoverDurationMinutes": 45,
+            "durationMinutes": 735,
+            "overnight": false,
+            "stopoverDuration": "45m",
+            "durationDays": 0,
+            "longStopover": false,
+            "segments": [
+                {
+                    "durationMinutes": 290,
+                    "stopoverDurationMinutes": 45,
+                    "departureAirportCode": "DEL",
+                    "arrivalAirportCode": "KWI",
+                    "airlineCode": "KU",
+                    "cabin": "economy",
+                    "designatorCode": "KU384",
+                    "departureDateTime": "2021-12-30T06:15:00.000+05:30",
+                    "arrivalDateTime": "2021-12-30T08:35:00.000+03:00"
+                },
+                {
+                    "durationMinutes": 400,
+                    "stopoverDurationMinutes": 0,
+                    "departureAirportCode": "KWI",
+                    "arrivalAirportCode": "LHR",
+                    "airlineCode": "KU",
+                    "cabin": "economy",
+                    "designatorCode": "KU101",
+                    "departureDateTime": "2021-12-30T09:20:00.000+03:00",
+                    "arrivalDateTime": "2021-12-30T13:00:00.000Z"
+                }
+            ],
+            "operatingAirlineCodes": [],
+            "stopoverCode": "ONE_STOP",
+            "shortStopover": true,
+            "earlyDeparture": false,
+            "lateArrival": false,
+            "newAircraft": false,
+            "oldAircraft": true,
+            "highlyRatedCarrier": false,
+            "score": 691
+        },
+        {
+            "id": "DEL-LHR:EY211~30:EY17~30:0",
+            "departureTime": "04:00",
+            "arrivalTime": "18:10",
+            "duration": "19h 40m",
+            "departureAirportCode": "DEL",
+            "arrivalAirportCode": "LHR",
+            "airlineCodes": [
+                "EY"
+            ],
+            "stopoverAirportCodes": [
+                "AUH"
+            ],
+            "allianceCodes": [
+                ""
+            ],
+            "stopoversCount": 1,
+            "departureTimeMinutes": 240,
+            "arrivalTimeMinutes": 1090,
+            "departureDateTime": "2021-12-30T04:00:00.000+05:30",
+            "arrivalDateTime": "2021-12-30T18:10:00.000Z",
+            "stopoverDurationMinutes": 485,
+            "durationMinutes": 1180,
+            "overnight": false,
+            "stopoverDuration": "08h 05m",
+            "durationDays": 0,
+            "longStopover": true,
+            "segments": [
+                {
+                    "durationMinutes": 240,
+                    "stopoverDurationMinutes": 485,
+                    "departureAirportCode": "DEL",
+                    "arrivalAirportCode": "AUH",
+                    "airlineCode": "EY",
+                    "cabin": "economy",
+                    "designatorCode": "EY211",
+                    "departureDateTime": "2021-12-30T04:00:00.000+05:30",
+                    "arrivalDateTime": "2021-12-30T06:30:00.000+04:00"
+                },
+                {
+                    "durationMinutes": 455,
+                    "stopoverDurationMinutes": 0,
+                    "departureAirportCode": "AUH",
+                    "arrivalAirportCode": "LHR",
+                    "airlineCode": "EY",
+                    "cabin": "economy",
+                    "designatorCode": "EY17",
+                    "departureDateTime": "2021-12-30T14:35:00.000+04:00",
+                    "arrivalDateTime": "2021-12-30T18:10:00.000Z"
+                }
+            ],
+            "operatingAirlineCodes": [],
+            "stopoverCode": "ONE_STOP",
+            "shortStopover": false,
+            "earlyDeparture": true,
+            "lateArrival": false,
+            "newAircraft": false,
+            "oldAircraft": true,
+            "highlyRatedCarrier": false,
+            "score": 688.5
+        }
+    ],
+    "tags": [
+        {
+            "id": 5,
+            "code": "REFUNDABLE",
+            "name": "Refundable",
+            "type": "flexible_tickets",
+            "price": {
+                "totalAmount": 2562,
+                "totalAmountUsd": 2562.3657,
+                "currencyCode": "USD"
+            }
+        }
+    ],
+    "search": {
+        "id": "f5c9592a9d5c6542msr",
+        "cabin": "economy",
+        "adultsCount": 2,
+        "childrenCount": 0,
+        "infantsCount": 1,
+        "siteCode": "US",
+        "currencyCode": "GBP",
+        "locale": "en",
+        "deviceType": "desktop",
+        "appType": "WEB_APP",
+        "createdAt": "2021-12-25T22:05:05.427Z",
+        "key": "[DEL:LHR:2021-12-30]~2~0~1~US~economy~desktop~WEB_APP",
+        "userCountryCode": "IT",
+        "legs": [
+            {
+                "id": "DEL:LHR:2021-12-30",
+                "outboundDate": "2021-12-30",
+                "departureAirportCode": "DEL",
+                "arrivalAirportCode": "LHR",
+                "departureCity": {
+                    "code": "DEL",
+                    "name": "New Delhi",
+                    "enName": "New Delhi",
+                    "countryCode": "IN",
+                    "countryName": "India",
+                    "countryEnName": "India",
+                    "worldRegionCode": "i",
+                    "worldRegionName": "Asia",
+                    "worldRegionEnName": "Asia"
+                },
+                "arrivalCity": {
+                    "code": "LON",
+                    "name": "London",
+                    "enName": "London",
+                    "countryCode": "GB",
+                    "countryName": "United Kingdom",
+                    "countryEnName": "United Kingdom",
+                    "worldRegionCode": "e",
+                    "worldRegionName": "Europe",
+                    "worldRegionEnName": "Europe"
+                },
+                "departureAirport": {
+                    "name": "Delhi Airport",
+                    "code": "DEL",
+                    "cityCode": "DEL"
+                },
+                "arrivalAirport": {
+                    "name": "London Heathrow Airport",
+                    "code": "LHR",
+                    "cityCode": "LON"
+                }
+            }
+        ]
+    },
+    "airlines": [
+        {
+            "name": "Etihad Airways",
+            "code": "EY"
+        },
+        {
+            "name": "Kuwait Airways",
+            "code": "KU"
+        }
+    ],
+    "airports": [
+        {
+            "name": "Abu Dhabi International Airport",
+            "code": "AUH",
+            "cityCode": "AUH"
+        },
+        {
+            "name": "Delhi Airport",
+            "code": "DEL",
+            "cityCode": "DEL"
+        },
+        {
+            "name": "Kuwait Airport",
+            "code": "KWI",
+            "cityCode": "KWI"
+        },
+        {
+            "name": "London Heathrow Airport",
+            "code": "LHR",
+            "cityCode": "LON"
+        }
+    ],
+    "cities": [
+        {
+            "code": "AUH",
+            "name": "Abu Dhabi",
+            "countryCode": "AE"
+        },
+        {
+            "code": "KWI",
+            "name": "Kuwait",
+            "countryCode": "KW"
+        },
+        {
+            "code": "LON",
+            "name": "London",
+            "countryCode": "GB"
+        },
+        {
+            "code": "DEL",
+            "name": "New Delhi",
+            "countryCode": "IN"
+        }
+    ],
+    "providers": [
+        {
+            "code": "etihad.com",
+            "name": "Etihad",
+            "type": "airline",
+            "instant": false,
+            "facilitatedBooking": false,
+            "wegoFare": false
+        },
+        {
+            "code": "kuwaitairways.com",
+            "name": "Kuwait Airways",
+            "type": "airline",
+            "instant": false,
+            "facilitatedBooking": false,
+            "wegoFare": false
+        }
+    ],
+    "countries": [
+        {
+            "code": "IN",
+            "name": "India"
+        },
+        {
+            "code": "KW",
+            "name": "Kuwait"
+        },
+        {
+            "code": "AE",
+            "name": "United Arab Emirates"
+        },
+        {
+            "code": "GB",
+            "name": "United Kingdom"
+        }
+    ],
+    "trips": [
+        {
+            "id": "f5c9592a9d5c6542msr:KU384~30-KU101~30",
+            "code": "KU384~30-KU101~30",
+            "legIds": [
+                "DEL-LHR:KU384~30:KU101~30:0"
+            ]
+        },
+        {
+            "id": "f5c9592a9d5c6542msr:KU384~30-KU103~31",
+            "code": "KU384~30-KU103~31",
+            "legIds": [
+                "DEL-LHR:KU384~30:KU103~31:0"
+            ]
+        },
+        {
+            "id": "f5c9592a9d5c6542msr:EY211~30-EY17~30",
+            "code": "EY211~30-EY17~30",
+            "legIds": [
+                "DEL-LHR:EY211~30:EY17~30:0"
+            ]
+        }
+    ],
+    "fares": [
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                }
+            ],
+            "id": "f5c9592a9d5c6542msr:kuwaitairways.com:d60dab5c7c7b0596",
+            "price": {
+                "totalAmount": 2562,
+                "totalAmountUsd": 2562.3657,
+                "amount": 854,
+                "amountUsd": 854.1219,
+                "originalAmount": 854,
+                "originalAmountUsd": 854.1219,
+                "amountPerAdult": 1165.7826,
+                "amountPerChild": 0,
+                "amountPerInfant": 232.40683,
+                "taxAmount": 113,
+                "taxAmountUsd": 112.99042,
+                "totalTaxAmount": 339,
+                "totalTaxAmountUsd": 338.97125,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "kuwaitairways.com",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=GBP&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=f5c9592a9d5c6542msr:kuwaitairways.com:d60dab5c7c7b0596&placement_type=metasearch&route=DEL-LHR&search_id=f5c9592a9d5c6542msr&trip_id=DEL:LHR:2021-12-30&pwa=false&api_version=2&integration_code=kuwaitairways.com®ion=ap-southeast-1",
+            "ecpc": 0.597687,
+            "remainingSeatsCount": 0,
+            "conditionIds": [
+                1
+            ],
+            "legConditionIds": [],
+            "refundable": true,
+            "exchangeable": false,
+            "tags": [
+                {
+                    "id": 5
+                }
+            ],
+            "tripId": "f5c9592a9d5c6542msr:KU384~30-KU101~30"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                }
+            ],
+            "id": "f5c9592a9d5c6542msr:kuwaitairways.com:ae692b9667290548",
+            "price": {
+                "totalAmount": 2826,
+                "totalAmountUsd": 2827.438,
+                "amount": 942,
+                "amountUsd": 942.4793,
+                "originalAmount": 942,
+                "originalAmountUsd": 942.4793,
+                "amountPerAdult": 1296.5784,
+                "amountPerChild": 0,
+                "amountPerInfant": 232.40683,
+                "taxAmount": 119,
+                "taxAmountUsd": 119.28253,
+                "totalTaxAmount": 357,
+                "totalTaxAmountUsd": 357.8476,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "kuwaitairways.com",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=GBP&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=f5c9592a9d5c6542msr:kuwaitairways.com:ae692b9667290548&placement_type=metasearch&route=DEL-LHR&search_id=f5c9592a9d5c6542msr&trip_id=DEL:LHR:2021-12-30&pwa=false&api_version=2&integration_code=kuwaitairways.com®ion=ap-southeast-1",
+            "ecpc": 0.597687,
+            "remainingSeatsCount": 0,
+            "conditionIds": [
+                1
+            ],
+            "legConditionIds": [],
+            "refundable": true,
+            "exchangeable": false,
+            "tags": [
+                {
+                    "id": 5
+                }
+            ],
+            "tripId": "f5c9592a9d5c6542msr:KU384~30-KU103~31"
+        },
+        {
+            "paymentFees": [
+                {
+                    "paymentMethodId": 3,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 15,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                },
+                {
+                    "paymentMethodId": 10,
+                    "currencyCode": "USD",
+                    "amount": 0,
+                    "amountUsd": 0
+                }
+            ],
+            "id": "f5c9592a9d5c6542msr:etihad.com:25fb38e60fbbcdbe",
+            "price": {
+                "totalAmount": 3615,
+                "totalAmountUsd": 3615.4346,
+                "amount": 1205,
+                "amountUsd": 1205.1449,
+                "originalAmount": 1205,
+                "originalAmountUsd": 1205.1449,
+                "amountPerAdult": 1717.9156,
+                "amountPerChild": 0,
+                "amountPerInfant": 179.59023,
+                "taxAmount": 224,
+                "taxAmountUsd": 223.96191,
+                "totalTaxAmount": 672,
+                "totalTaxAmountUsd": 671.88574,
+                "currencyCode": "USD",
+                "paymentFeeAmountUsd": 0,
+                "bookingFee": 0,
+                "bookingFeeUsd": 0,
+                "totalBookingFee": 0,
+                "totalBookingFeeUsd": 0
+            },
+            "providerCode": "etihad.com",
+            "handoffUrl": "https://handoff.wego.com/flights/continue?currency=GBP&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=f5c9592a9d5c6542msr:etihad.com:25fb38e60fbbcdbe&placement_type=metasearch&route=DEL-LHR&search_id=f5c9592a9d5c6542msr&trip_id=DEL:LHR:2021-12-30&pwa=false&api_version=2&integration_code=etihad.com®ion=ap-southeast-1",
+            "ecpc": 0.386069,
+            "remainingSeatsCount": 0,
+            "conditionIds": [],
+            "legConditionIds": [],
+            "refundable": false,
+            "exchangeable": false,
+            "tags": [],
+            "tripId": "f5c9592a9d5c6542msr:EY211~30-EY17~30"
+        }
+    ],
+    "filters": {
+        "minPrice": {
+            "totalAmount": 2562,
+            "totalAmountUsd": 2562.3657,
+            "amount": 854,
+            "amountUsd": 854.1219,
+            "originalAmount": 854,
+            "originalAmountUsd": 854.1219,
+            "amountPerAdult": 1165.7826,
+            "amountPerChild": 0,
+            "amountPerInfant": 232.40683,
+            "taxAmount": 113,
+            "taxAmountUsd": 112.99042,
+            "totalTaxAmount": 339,
+            "totalTaxAmountUsd": 338.97125,
+            "currencyCode": "USD",
+            "paymentFeeAmountUsd": 0,
+            "bookingFee": 0,
+            "bookingFeeUsd": 0,
+            "totalBookingFee": 0,
+            "totalBookingFeeUsd": 0
+        },
+        "maxPrice": {
+            "totalAmount": 3615,
+            "totalAmountUsd": 3615.4346,
+            "amount": 1205,
+            "amountUsd": 1205.1449,
+            "originalAmount": 1205,
+            "originalAmountUsd": 1205.1449,
+            "amountPerAdult": 1717.9156,
+            "amountPerChild": 0,
+            "amountPerInfant": 179.59023,
+            "taxAmount": 224,
+            "taxAmountUsd": 223.96191,
+            "totalTaxAmount": 672,
+            "totalTaxAmountUsd": 671.88574,
+            "currencyCode": "USD",
+            "paymentFeeAmountUsd": 0,
+            "bookingFee": 0,
+            "bookingFeeUsd": 0,
+            "totalBookingFee": 0,
+            "totalBookingFeeUsd": 0
+        },
+        "stops": [
+            {
+                "code": "ONE_STOP",
+                "price": {
+                    "totalAmount": 2562,
+                    "totalAmountUsd": 2562.3657,
+                    "amount": 854,
+                    "amountUsd": 854.1219,
+                    "originalAmount": 854,
+                    "originalAmountUsd": 854.1219,
+                    "amountPerAdult": 1165.7826,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 232.40683,
+                    "taxAmount": 113,
+                    "taxAmountUsd": 112.99042,
+                    "totalTaxAmount": 339,
+                    "totalTaxAmountUsd": 338.97125,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            }
+        ],
+        "airlines": [
+            {
+                "code": "EY",
+                "price": {
+                    "totalAmount": 3615,
+                    "totalAmountUsd": 3615.4346,
+                    "amount": 1205,
+                    "amountUsd": 1205.1449,
+                    "originalAmount": 1205,
+                    "originalAmountUsd": 1205.1449,
+                    "amountPerAdult": 1717.9156,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 179.59023,
+                    "taxAmount": 224,
+                    "taxAmountUsd": 223.96191,
+                    "totalTaxAmount": 672,
+                    "totalTaxAmountUsd": 671.88574,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            },
+            {
+                "code": "KU",
+                "price": {
+                    "totalAmount": 2562,
+                    "totalAmountUsd": 2562.3657,
+                    "amount": 854,
+                    "amountUsd": 854.1219,
+                    "originalAmount": 854,
+                    "originalAmountUsd": 854.1219,
+                    "amountPerAdult": 1165.7826,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 232.40683,
+                    "taxAmount": 113,
+                    "taxAmountUsd": 112.99042,
+                    "totalTaxAmount": 339,
+                    "totalTaxAmountUsd": 338.97125,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            }
+        ],
+        "providers": [
+            {
+                "code": "etihad.com",
+                "price": {
+                    "totalAmount": 3615,
+                    "totalAmountUsd": 3615.4346,
+                    "amount": 1205,
+                    "amountUsd": 1205.1449,
+                    "originalAmount": 1205,
+                    "originalAmountUsd": 1205.1449,
+                    "amountPerAdult": 1717.9156,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 179.59023,
+                    "taxAmount": 224,
+                    "taxAmountUsd": 223.96191,
+                    "totalTaxAmount": 672,
+                    "totalTaxAmountUsd": 671.88574,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            },
+            {
+                "code": "kuwaitairways.com",
+                "price": {
+                    "totalAmount": 2562,
+                    "totalAmountUsd": 2562.3657,
+                    "amount": 854,
+                    "amountUsd": 854.1219,
+                    "originalAmount": 854,
+                    "originalAmountUsd": 854.1219,
+                    "amountPerAdult": 1165.7826,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 232.40683,
+                    "taxAmount": 113,
+                    "taxAmountUsd": 112.99042,
+                    "totalTaxAmount": 339,
+                    "totalTaxAmountUsd": 338.97125,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            }
+        ],
+        "stopoverAirports": [
+            {
+                "code": "AUH",
+                "price": {
+                    "totalAmount": 3615,
+                    "totalAmountUsd": 3615.4346,
+                    "amount": 1205,
+                    "amountUsd": 1205.1449,
+                    "originalAmount": 1205,
+                    "originalAmountUsd": 1205.1449,
+                    "amountPerAdult": 1717.9156,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 179.59023,
+                    "taxAmount": 224,
+                    "taxAmountUsd": 223.96191,
+                    "totalTaxAmount": 672,
+                    "totalTaxAmountUsd": 671.88574,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            },
+            {
+                "code": "KWI",
+                "price": {
+                    "totalAmount": 2562,
+                    "totalAmountUsd": 2562.3657,
+                    "amount": 854,
+                    "amountUsd": 854.1219,
+                    "originalAmount": 854,
+                    "originalAmountUsd": 854.1219,
+                    "amountPerAdult": 1165.7826,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 232.40683,
+                    "taxAmount": 113,
+                    "taxAmountUsd": 112.99042,
+                    "totalTaxAmount": 339,
+                    "totalTaxAmountUsd": 338.97125,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            }
+        ],
+        "stopoverDurations": {
+            "min": 45,
+            "max": 1245
+        },
+        "originAirports": [
+            {
+                "code": "DEL",
+                "price": {
+                    "totalAmount": 2562,
+                    "totalAmountUsd": 2562.3657,
+                    "amount": 854,
+                    "amountUsd": 854.1219,
+                    "originalAmount": 854,
+                    "originalAmountUsd": 854.1219,
+                    "amountPerAdult": 1165.7826,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 232.40683,
+                    "taxAmount": 113,
+                    "taxAmountUsd": 112.99042,
+                    "totalTaxAmount": 339,
+                    "totalTaxAmountUsd": 338.97125,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            }
+        ],
+        "destinationAirports": [
+            {
+                "code": "LHR",
+                "price": {
+                    "totalAmount": 2562,
+                    "totalAmountUsd": 2562.3657,
+                    "amount": 854,
+                    "amountUsd": 854.1219,
+                    "originalAmount": 854,
+                    "originalAmountUsd": 854.1219,
+                    "amountPerAdult": 1165.7826,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 232.40683,
+                    "taxAmount": 113,
+                    "taxAmountUsd": 112.99042,
+                    "totalTaxAmount": 339,
+                    "totalTaxAmountUsd": 338.97125,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            }
+        ],
+        "tripDurations": {
+            "min": 735,
+            "max": 1935
+        },
+        "legs": [
+            {
+                "departureAirportCode": "DEL",
+                "arrivalAirportCode": "LHR",
+                "departureCityCode": "DEL",
+                "arrivalCityCode": "LON",
+                "index": 0,
+                "departureTimes": {
+                    "min": 240,
+                    "max": 375
+                },
+                "arrivalTimes": {
+                    "min": 540,
+                    "max": 1090
+                },
+                "durations": {
+                    "min": 735,
+                    "max": 1935
+                },
+                "stops": [
+                    {
+                        "code": "ONE_STOP",
+                        "price": {
+                            "totalAmount": 2562,
+                            "totalAmountUsd": 2562.3657,
+                            "amount": 854,
+                            "amountUsd": 854.1219,
+                            "originalAmount": 854,
+                            "originalAmountUsd": 854.1219,
+                            "amountPerAdult": 1165.7826,
+                            "amountPerChild": 0,
+                            "amountPerInfant": 232.40683,
+                            "taxAmount": 113,
+                            "taxAmountUsd": 112.99042,
+                            "totalTaxAmount": 339,
+                            "totalTaxAmountUsd": 338.97125,
+                            "currencyCode": "USD",
+                            "paymentFeeAmountUsd": 0,
+                            "bookingFee": 0,
+                            "bookingFeeUsd": 0,
+                            "totalBookingFee": 0,
+                            "totalBookingFeeUsd": 0
+                        }
+                    }
+                ],
+                "stopoverDurations": {
+                    "min": 45,
+                    "max": 1245
+                },
+                "stopoverAirports": [
+                    {
+                        "code": "AUH",
+                        "price": {
+                            "totalAmount": 3615,
+                            "totalAmountUsd": 3615.4346,
+                            "amount": 1205,
+                            "amountUsd": 1205.1449,
+                            "originalAmount": 1205,
+                            "originalAmountUsd": 1205.1449,
+                            "amountPerAdult": 1717.9156,
+                            "amountPerChild": 0,
+                            "amountPerInfant": 179.59023,
+                            "taxAmount": 224,
+                            "taxAmountUsd": 223.96191,
+                            "totalTaxAmount": 672,
+                            "totalTaxAmountUsd": 671.88574,
+                            "currencyCode": "USD",
+                            "paymentFeeAmountUsd": 0,
+                            "bookingFee": 0,
+                            "bookingFeeUsd": 0,
+                            "totalBookingFee": 0,
+                            "totalBookingFeeUsd": 0
+                        }
+                    },
+                    {
+                        "code": "KWI",
+                        "price": {
+                            "totalAmount": 2562,
+                            "totalAmountUsd": 2562.3657,
+                            "amount": 854,
+                            "amountUsd": 854.1219,
+                            "originalAmount": 854,
+                            "originalAmountUsd": 854.1219,
+                            "amountPerAdult": 1165.7826,
+                            "amountPerChild": 0,
+                            "amountPerInfant": 232.40683,
+                            "taxAmount": 113,
+                            "taxAmountUsd": 112.99042,
+                            "totalTaxAmount": 339,
+                            "totalTaxAmountUsd": 338.97125,
+                            "currencyCode": "USD",
+                            "paymentFeeAmountUsd": 0,
+                            "bookingFee": 0,
+                            "bookingFeeUsd": 0,
+                            "totalBookingFee": 0,
+                            "totalBookingFeeUsd": 0
+                        }
+                    }
+                ],
+                "airlines": [
+                    {
+                        "code": "EY",
+                        "price": {
+                            "totalAmount": 3615,
+                            "totalAmountUsd": 3615.4346,
+                            "amount": 1205,
+                            "amountUsd": 1205.1449,
+                            "originalAmount": 1205,
+                            "originalAmountUsd": 1205.1449,
+                            "amountPerAdult": 1717.9156,
+                            "amountPerChild": 0,
+                            "amountPerInfant": 179.59023,
+                            "taxAmount": 224,
+                            "taxAmountUsd": 223.96191,
+                            "totalTaxAmount": 672,
+                            "totalTaxAmountUsd": 671.88574,
+                            "currencyCode": "USD",
+                            "paymentFeeAmountUsd": 0,
+                            "bookingFee": 0,
+                            "bookingFeeUsd": 0,
+                            "totalBookingFee": 0,
+                            "totalBookingFeeUsd": 0
+                        }
+                    },
+                    {
+                        "code": "KU",
+                        "price": {
+                            "totalAmount": 2562,
+                            "totalAmountUsd": 2562.3657,
+                            "amount": 854,
+                            "amountUsd": 854.1219,
+                            "originalAmount": 854,
+                            "originalAmountUsd": 854.1219,
+                            "amountPerAdult": 1165.7826,
+                            "amountPerChild": 0,
+                            "amountPerInfant": 232.40683,
+                            "taxAmount": 113,
+                            "taxAmountUsd": 112.99042,
+                            "totalTaxAmount": 339,
+                            "totalTaxAmountUsd": 338.97125,
+                            "currencyCode": "USD",
+                            "paymentFeeAmountUsd": 0,
+                            "bookingFee": 0,
+                            "bookingFeeUsd": 0,
+                            "totalBookingFee": 0,
+                            "totalBookingFeeUsd": 0
+                        }
+                    }
+                ]
+            }
+        ],
+        "alliances": [
+            {
+                "code": "",
+                "price": {
+                    "totalAmount": 2562,
+                    "totalAmountUsd": 2562.3657,
+                    "amount": 854,
+                    "amountUsd": 854.1219,
+                    "originalAmount": 854,
+                    "originalAmountUsd": 854.1219,
+                    "amountPerAdult": 1165.7826,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 232.40683,
+                    "taxAmount": 113,
+                    "taxAmountUsd": 112.99042,
+                    "totalTaxAmount": 339,
+                    "totalTaxAmountUsd": 338.97125,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            }
+        ],
+        "fareConditions": [
+            {
+                "code": "1",
+                "price": {
+                    "totalAmount": 2562,
+                    "totalAmountUsd": 2562.3657,
+                    "amount": 854,
+                    "amountUsd": 854.1219,
+                    "originalAmount": 854,
+                    "originalAmountUsd": 854.1219,
+                    "amountPerAdult": 1165.7826,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 232.40683,
+                    "taxAmount": 113,
+                    "taxAmountUsd": 112.99042,
+                    "totalTaxAmount": 339,
+                    "totalTaxAmountUsd": 338.97125,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                }
+            }
+        ]
+    },
+    "routeSponsors": [
+        {
+            "priority": 0,
+            "fare": {
+                "paymentFees": [
+                    {
+                        "paymentMethodId": 3,
+                        "currencyCode": "USD",
+                        "amount": 0,
+                        "amountUsd": 0
+                    },
+                    {
+                        "paymentMethodId": 15,
+                        "currencyCode": "USD",
+                        "amount": 0,
+                        "amountUsd": 0
+                    },
+                    {
+                        "paymentMethodId": 10,
+                        "currencyCode": "USD",
+                        "amount": 0,
+                        "amountUsd": 0
+                    }
+                ],
+                "id": "f5c9592a9d5c6542msr:etihad.com:25fb38e60fbbcdbe",
+                "price": {
+                    "totalAmount": 3615,
+                    "totalAmountUsd": 3615.4346,
+                    "amount": 1205,
+                    "amountUsd": 1205.1449,
+                    "originalAmount": 1205,
+                    "originalAmountUsd": 1205.1449,
+                    "amountPerAdult": 1717.9156,
+                    "amountPerChild": 0,
+                    "amountPerInfant": 179.59023,
+                    "taxAmount": 224,
+                    "taxAmountUsd": 223.96191,
+                    "totalTaxAmount": 672,
+                    "totalTaxAmountUsd": 671.88574,
+                    "currencyCode": "USD",
+                    "paymentFeeAmountUsd": 0,
+                    "bookingFee": 0,
+                    "bookingFeeUsd": 0,
+                    "totalBookingFee": 0,
+                    "totalBookingFeeUsd": 0
+                },
+                "providerCode": "etihad.com",
+                "handoffUrl": "https://handoff.wego.com/flights/continue?currency=GBP&url_locale=en&site_code=US&device_type=desktop&app_type=WEB_APP&domain=www.wego.com&fare_id=f5c9592a9d5c6542msr:etihad.com:25fb38e60fbbcdbe&placement_type=metasearch&route=DEL-LHR&search_id=f5c9592a9d5c6542msr&trip_id=DEL:LHR:2021-12-30&pwa=false&api_version=2&integration_code=etihad.com",
+                "ecpc": 0.386069,
+                "remainingSeatsCount": 0,
+                "conditionIds": [],
+                "legConditionIds": [],
+                "refundable": false,
+                "exchangeable": false,
+                "tags": [],
+                "tripId": "f5c9592a9d5c6542msr:EY211~30-EY17~30"
+            }
+        }
+    ],
+    "scores": {
+        "f5c9592a9d5c6542msr:KU384~30-KU101~30": 691,
+        "f5c9592a9d5c6542msr:KU384~30-KU103~31": 499.5,
+        "f5c9592a9d5c6542msr:EY211~30-EY17~30": 688.5
+    },
+    "paymentMethods": [
+        {
+            "id": 97,
+            "name": "KNET"
+        },
+        {
+            "id": 3,
+            "name": "American Express"
+        },
+        {
+            "id": 5,
+            "name": "Diners Club"
+        },
+        {
+            "id": 7,
+            "name": "JCB"
+        },
+        {
+            "id": 8,
+            "name": "萬事達信用卡"
+        },
+        {
+            "id": 9,
+            "name": "MasterCard Cirrus"
+        },
+        {
+            "id": 10,
+            "name": "MasterCard Credit"
+        },
+        {
+            "id": 11,
+            "name": "MasterCard Debit"
+        },
+        {
+            "id": 12,
+            "name": "MasterCard Maestro"
+        },
+        {
+            "id": 14,
+            "name": "Visa"
+        },
+        {
+            "id": 15,
+            "name": "Visa Credit"
+        },
+        {
+            "id": 16,
+            "name": "Visa Debit"
+        },
+        {
+            "id": 17,
+            "name": "Visa Electron"
+        },
+        {
+            "id": 90,
+            "name": "UATP"
+        }
+    ],
+    "fareConditions": [
+        {
+            "id": 1,
+            "code": "REFUNDABLE",
+            "name": "Refundable"
+        }
+    ],
+    "faresCount": {
+        "f5c9592a9d5c6542msr:KU384~30-KU103~31": 1,
+        "f5c9592a9d5c6542msr:KU384~30-KU101~30": 1,
+        "f5c9592a9d5c6542msr:EY211~30-EY17~30": 1
+    },
+    "promosCount": {},
+    "count": 3,
+    "sponsors": []
+}

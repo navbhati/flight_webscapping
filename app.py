@@ -1,6 +1,6 @@
 from os import name
 from flask import Flask, render_template, request
-from flight_data import readFile 
+from flight_data import getFlightData 
 
 app = Flask(__name__)
 
@@ -12,12 +12,8 @@ def index():
 @app.route('/', methods=['POST'])
 def formSubmit():
     print(request.form)
+    return getFlightData(request.form).content
 
-
-@app.route('/submit1', methods=['POST'])
-def Submit():
-    print(request.form)
-    return readFile('flightData.json').content
 
 if __name__ == '__main__':
     app.debug = True

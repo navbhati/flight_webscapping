@@ -1,18 +1,15 @@
 import requests
 import  json
 import smtplib, ssl
-def readFile(fileName):
-    
-    with open(fileName) as f:
-        d = json.load(f)
-        print(d)
+def getFlightData(inputData):
     
    
-    trip =  d['trip']
-    source = d['source']
-    destination = d['destination']
-    departureDate = d['departureDate']
-    seatType = d['seatType']
+    trip =  inputData['ticketType']
+    source = inputData['origin']
+    destination = inputData['destination']
+    departureDate = inputData['departureDate']
+    seatType = inputData['class']
+    budget = inputData['budget']
     
 
     
@@ -24,10 +21,11 @@ def readFile(fileName):
 
 
     print(url)
-    print('https://api.flightapi.io/onewaytrip/61b49a3b13b15b74ee7b99e5/LHR/LAX/2022-10-11/2/0/1/Economy/USD')
+
     response = requests.get(url)
     print(response)
     the_info = response.json()
+    print(the_info['filters']['minPrice']['totalAmount'])
     return response
     
     #print("the_info ********")
