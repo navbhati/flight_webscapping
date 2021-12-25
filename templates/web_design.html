@@ -61,7 +61,7 @@ Budget <input type="number" name="" value ="" id = "txtBudget" placeholder="Ente
 </p>
 
 <p>
-<input type="submit" name="Submit" value="Submit" id = "txtSubmit" onClick="savingData()">
+<input type="submit" name="Submit" value="Submit" id = "txtSubmit" >
 
 </p>
 
@@ -70,49 +70,45 @@ Budget <input type="number" name="" value ="" id = "txtBudget" placeholder="Ente
 </head>
 
 <script>
+<!-- 
+  let submitFlightData = () => {
 
-  let savingData = () => {
+    console.log("1")
+    data = extractData()
 
-    const Email = document.getElementById('txtEmail');
-    const Ticket = document.getElementById('txtTicket');
-    const To = document.getElementById('txtTo');
-    const From = document.getElementById('txtFrom');
-    const Depart = document.getElementById('txtDepart');
-    const Return = document.getElementById('txtReturn');
-    const Class = document.getElementById('txtClass');
-    const People = document.getElementById('txtPeople');
-    const Budget = document.getElementById('txtBudget')
-    const Direct = document.getElementById('txtDirect');
-    
-    let data = 
-    Email.value + '\r\n' +
-    Ticket.value + '\r\n' +
-    To.value + '\r\n' +
-    From.value + '\r\n' +
-    Depart.value + '\r\n' +
-    Return.value + '\r\n' +
-    Class.value + '\r\n' +
-    People.value + '\r\n' +
-    Budget.value + '\r\n' +
-    Direct.value;
+    function loadDoc(){
 
-    const textToBlob = new Blob([data], { type: 'json' });
-    const sFileName = 'flightData.json';
+      var xhttp = new XMLHttpRequest();
+      xhttp.open("POST", "http://localhost:5000/submit1");
+      xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded")
+      xhttp.send(data);
 
-    let newLink = document.createElement("a");
-    newLink.download = sFileName;
+    };
 
-    if (window.webkitURL != null) {
-      newLink.href = window.webkitURL.createObjectURL(textToBlob)
-
-    }
-    else{
-      newLink.href = window.webkitURL.createObjectURL(textToBlob)
-      newLink.style.display = "none"
-      document.body.appendChild(newLink);
-    }
-    newLink.click();
+    loadDoc()
   }
+
+  let extractData = () => {
+
+    flightData = {
+    Email: document.getElementById('txtEmail'),
+    Ticket: document.getElementById('txtTicket'),
+    To: document.getElementById('txtTo'),
+    From: document.getElementById('txtFrom'),
+    Depart: document.getElementById('txtDepart'),
+    Return: document.getElementById('txtReturn'),
+    Class: document.getElementById('txtClass'),
+    People: document.getElementById('txtPeople'),
+    Budget: document.getElementById('txtBudget'),
+    Direct: document.getElementById('txtDirect')
+    }
+
+    console.log("2")
+
+    console.log("at client side data", flightData);
+
+    return JSON.stringify(flightData);
+  } -->
 
 </script>
 

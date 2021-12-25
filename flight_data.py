@@ -26,8 +26,9 @@ def readFile(fileName):
     print(url)
     print('https://api.flightapi.io/onewaytrip/61b49a3b13b15b74ee7b99e5/LHR/LAX/2022-10-11/2/0/1/Economy/USD')
     response = requests.get(url)
-    print(response.content)
+    print(response)
     the_info = response.json()
+    return response
     
     #print("the_info ********")
     #print(the_info)
@@ -46,7 +47,7 @@ def readFile(fileName):
             print(int(the_info['Quotes'][i]['MinPrice']))            
         i+=1
     '''    
-readFile('flightData.json')
+# readFile('flightData.json')
 
 
 
