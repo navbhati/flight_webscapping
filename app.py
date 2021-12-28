@@ -1,5 +1,7 @@
 from os import name
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request,jsonify
+from requests.models import Response
+from werkzeug.wrappers import response
 from flight_data import getFlightData 
 
 app = Flask(__name__)
@@ -11,8 +13,9 @@ def index():
 
 @app.route('/', methods=['POST'])
 def formSubmit():
-    print(request.form)
-    return getFlightData(request.form).content
+    response = getFlightData(request.form)
+    print(response)
+    return jsonify(response)
 
 
 if __name__ == '__main__':

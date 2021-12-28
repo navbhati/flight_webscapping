@@ -20,18 +20,24 @@ def getFlightData(inputData):
     url = f"https://api.flightapi.io/{trip}/61b49a3b13b15b74ee7b99e5/{source}/{destination}/{departureDate}/2/0/1/{seatType}/GBP"
 
 
-    print(url)
+   
 
     response = requests.get(url)
-    print(response)
+  
     the_info = response.json()
-    print(the_info['filters']['minPrice']['totalAmount'])
-    return response
     
-    #print("the_info ********")
-    #print(the_info)
-    #print(the_info['legs'])
-    #print(the_info['Quotes'][0]["MinPrice"])
+    options = the_info['fares']
+    
+    
+    results = ""
+    for option in options:
+        
+        if int(budget) >= option['price']['amount']:
+            results += option['providerCode'] + " " + str(option['price']['amount']) + " "
+            return results
+
+    return "Prices not found"
+
     '''
     
     
