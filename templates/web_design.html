@@ -12,7 +12,6 @@
 
 
 
-
 <form method="post" action=" ">
 <p>
     Email <input type="text" name="" value ="" id = "txtEmail">
@@ -27,14 +26,19 @@ Ticket <select name="ticketType" id = "txtTicket">
   </select>
 </p>
 
+
 To <input type="text" name='destination' id="search" class="form-control" placeholder = "Enter destination" autocomplete="off"
 selectBoxOptions= match >
+
+<input type="text" name="city" list="airports">
+<datalist id="airports"> 
+  <option value="dog">Dog</option>
+</datalist>
 
 
 <div id="match-list"></div>
 
 
-<script src="script.js"></script>
 
 
 From <input type="text" name="origin" value ="" id = "txtFrom" placeholder="Enter departing airport">
@@ -65,6 +69,36 @@ Budget <input type="number" name="budget" value ="" id = "txtBudget" placeholder
 
 </p>
 
+
+
+<script>
+
+  console.log('HEre')
+
+
+  var parser = new DOMParser;
+  var dom = parser.parseFromString(  '<!doctype html><body>\'' + JSON.stringify({{fileData}}) + '\'','text/html');
+  var decodedString = dom.body.textContent;
+  alert(decodedString)
+  //var mydata = {{fileData}}
+
+  //var dataList = document.getElementById('airports');
+  
+
+//foreach()
+
+  // Loop over the JSON array.
+  //mydata.forEach(function(item) {
+    //var option = document.createElement('option');
+    
+    //option.value = item.iata;
+    //option.text = item.name;
+  
+    //dataList.appendChild(option);
+  //});
+  
+  
+  </script>
 
 </form>
 </head>

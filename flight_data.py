@@ -17,7 +17,7 @@ def getFlightData(inputData):
     # user_input = fileObj.read().splitlines() #puts the file into an array
     # fileObj.close()
 
-    url = f"https://api.flightapi.io/{trip}/61b49a3b13b15b74ee7b99e5/{source}/{destination}/{departureDate}/2/0/1/{seatType}/GBP"
+    url = f"https://api.flightapi.io/{trip}/620fd0a4853d6d634dae50e2/{source}/{destination}/{departureDate}/2/0/1/{seatType}/GBP"
 
 
    
@@ -25,7 +25,6 @@ def getFlightData(inputData):
     response = requests.get(url)
   
     the_info = response.json()
-    
     options = the_info['fares']
     
     
@@ -33,7 +32,7 @@ def getFlightData(inputData):
     for option in options:
         
         if int(budget) >= option['price']['amount']:
-            results += option['providerCode'] + " " + str(option['price']['amount']) + " "
+            results += str(option['price']['amount']) + " " + option['handoffUrl']
             return results
 
     return "Prices not found"

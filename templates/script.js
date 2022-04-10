@@ -1,6 +1,10 @@
+alert('This is a message')
+
+
 const search = document.getElementById('search')
 const matchList = document.getElementById('match-list')
 
+console.log('NOw .... ')
 
 const searchAirports = async searchText => {
   const res = await fetch('airports.json')
