@@ -20,7 +20,8 @@ def index():
 def formSubmit():
     response = getFlightData(request.form)
     print(response)
-    return jsonify(response)
+    return render_template('search_result.html', result_data = response)
+    # return jsonify(response)
 
 
 if __name__ == '__main__':

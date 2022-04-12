@@ -36,7 +36,7 @@ def getFlightData(inputData):
         if int(budget) >= option['price']['amount']:
             flight_fare =  FlightFare(option['price']['amount'], option['handoffUrl'])
             results += flight_fare.get_flight_price()
-            return results
+            return flight_fare
 
     return "Prices not found"
 
