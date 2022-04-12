@@ -1,6 +1,8 @@
 import requests
 import  json
 import smtplib, ssl
+
+from flight_fare import FlightFare
 def getFlightData(inputData):
     
    
@@ -32,7 +34,8 @@ def getFlightData(inputData):
     for option in options:
         
         if int(budget) >= option['price']['amount']:
-            results += str(option['price']['amount']) + " " + option['handoffUrl']
+            flight_fare =  FlightFare(option['price']['amount'], option['handoffUrl'])
+            results += flight_fare.get_flight_price()
             return results
 
     return "Prices not found"

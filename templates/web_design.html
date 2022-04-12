@@ -27,10 +27,9 @@ Ticket <select name="ticketType" id = "txtTicket">
 </p>
 
 
-To <input type="text" name='destination' id="search" class="form-control" placeholder = "Enter destination" autocomplete="off"
-selectBoxOptions= match >
 
-<input type="text" name="city" list="airports">
+
+<input id="search" name="destination" placeholder="Destination" type="text" name="city" list="airports">
 <datalist id="airports"> 
   {% for item in fileData %}
   <option value={{item.iata}}>{{item.name}}</option>
