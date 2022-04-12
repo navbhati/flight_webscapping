@@ -32,7 +32,9 @@ selectBoxOptions= match >
 
 <input type="text" name="city" list="airports">
 <datalist id="airports"> 
-  <option value="dog">Dog</option>
+  {% for item in fileData %}
+  <option value={{item.iata}}>{{item.name}}</option>
+  {% endfor %}
 </datalist>
 
 
@@ -68,37 +70,6 @@ Budget <input type="number" name="budget" value ="" id = "txtBudget" placeholder
 <input type="submit" name="submit" value="Submit" id = "txtSubmit" >
 
 </p>
-
-
-
-<script>
-
-  console.log('HEre')
-
-
-  var parser = new DOMParser;
-  var dom = parser.parseFromString(  '<!doctype html><body>\'' + JSON.stringify({{fileData}}) + '\'','text/html');
-  var decodedString = dom.body.textContent;
-  alert(decodedString)
-  //var mydata = {{fileData}}
-
-  //var dataList = document.getElementById('airports');
-  
-
-//foreach()
-
-  // Loop over the JSON array.
-  //mydata.forEach(function(item) {
-    //var option = document.createElement('option');
-    
-    //option.value = item.iata;
-    //option.text = item.name;
-  
-    //dataList.appendChild(option);
-  //});
-  
-  
-  </script>
 
 </form>
 </head>
