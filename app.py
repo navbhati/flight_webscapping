@@ -4,8 +4,15 @@ from requests.models import Response
 from werkzeug.wrappers import response
 from flight_data import getFlightData 
 import json
-
+#from pil import Image
+import  base64
+import io
 app = Flask(__name__)
+
+#im = Image.open("plane.gif")
+#data = io.BytesIO()
+#im.save(data, "GIF")
+#encoded_img_data = base64.b64encode(data.getvalue())
 
 @app.route('/', methods=['GET'])
 def index():
